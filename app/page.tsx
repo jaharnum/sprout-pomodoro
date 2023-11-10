@@ -1,4 +1,4 @@
-
+import { SproutPic } from "./components/sproutPic"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 bg-blue-light">
@@ -17,8 +17,11 @@ export default function Home() {
         New Sprout
         </div>
       </div>
-      <div className="p-20 text-6xl font-sans tracking-widest text-blue-dark">
+      <div className="pt-20 text-6xl font-sans tracking-widest text-blue-dark">
         Big Timer Countdown
+      </div>
+      <div className="pt-10">
+        <SproutPic stage={6} />
       </div>
     </main>
   )
